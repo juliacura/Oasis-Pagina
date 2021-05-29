@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+.color-violeta {
+  color: #a966c4;
+}
+html,
+main {
+  display: flex;
+  flex-direction: column;
+}
+/*sale*/
+.sale {
+  background-color: white;
+  color: violet;
+  font-size: 80px;
+  padding: 20px;
+  margin-left: 500px;
+}
+/* footer */
+footer a:hover {
+  color: rgba(138, 87, 189, 0.644);
+}
+footer {
+  background-position: bottom;
+  margin-top: 30px;
+  bottom: 0;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+/*header */
+header {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 20px;
+  word-spacing: default;
+  margin-left: auto;
+  text-align: center;
+}
+
+header a {
+  color: black;
+}
+
+header,
+h1 {
+  color: rgba(138, 87, 189, 0.644);
+  justify-content: center;
+}
+.title {
+  padding: 10px;
+  text-align: center;
+}
+/*nav bar */
+.navbarmenu {
+  background-color: white;
+  color: black;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.navbarmenu a {
+  text-decoration: none;
+}
+
+.navbarmenu a:hover {
+  color: rgba(138, 87, 189, 0.644);
+}
+
+
+.formbuscar {
+  display: flex;
+  justify-content: left;
+}
+
+.maincontent{
+display: flex;
+}
+.prendas a:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+.prendas a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h4 {
+  font-weight: bolder;
+}
+h4 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 22px;
+  font-weight: bolder;
+}
+/*gui de talles*/
+.cuerpo {
+  color: brown;
+  font-weight: bolder;
+}
+.talle {
+  color: peru;
+  font-weight: bolder;
+}
+#cajaform {
+  width: 300px;
+  height: 200px;
+  background-color: #a966c498;
+}
+.maincontact {
+  margin: 15px;
+}
+
+.form {
+  list-style: none;
+}
+/*remera lila*/
+.structure{
+   display: flex;
+    justify-content: center;
+}
+.container-articulo {
+  display: inline-grid;
+  justify-content: space-around;
+  margin: 3mm;
+  border-left: 0, 1%;
+} 
+.item1
+
+.item2 {
+  width: 40%;
+  height: 40%;
+}
+.position{
+    display: flex; 
+    justify-content: center;
+}
+.linktalles{
+    color: black;
+    text-decoration: none;
+}
+.linktalles:hover{
+    color:rgba(138, 87, 189, 0.644) ;
+}
+/* denim*/
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 3mm;
+  border-left: 0, 1%;
+  text-decoration: none;
+}
+
+.item {
+  width: 22%;
+  height: auto;
+  padding-bottom: 0, 2%;
+  margin-bottom: auto;
+  margin: 0, 75%;
+}
+/*imagenes inicio*/
+.inicio {
+  margin: 1%;
+  padding: 1%;
+  white-space: 5px;
+}
+/*sale*/
+.grid-content {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-area: sidebar;
+}
+.item1 {
+  font-size: 55px;
+  grid-column: 1, 5;
+  position: relative;
+}
+.item2 {
+  font-size: 35px;
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.item3 {
+  margin-left: 60px;
+}
+/*zoom*/
+.zoom{
+    transition: transform 0.5s;
+}
+.zoom :hover{
+    transform: scale(1.25);
+}
