@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="./styles.css" type='text/css'>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
 
 <head>
     <meta charset="UTF-8">
@@ -35,7 +41,7 @@
 
     <main>
         <div class="structure">
-            <div class="container-articulo">
+            <div class="container container-articulo">
                 <a class="item1">
                     <h3> Remera Basica </h3>
                 </a>
@@ -46,11 +52,15 @@
                                 <img src="./images/remera_lila.jpeg" width="100%" height="100%">
                             </a>
                         </div>
-                        <a class="item3>">Remera lila</a>
+                        <a class="Remera_sutitulo>">Remera lila</a>
                         <a class="item4">Descripcion de la prenda: Remera 100% algodon con
                             escote redondo. Hecha en argentina.</a>
+                        <div class="boton_compra">
+                            <button type="button" class="btn btn-primary btn-sm" id=boton_compra>Agregar al
+                                carrito</button>
+                        </div>
                     </div>
-                    <div>
+                    <div class="size-selector">
                         <form>
                             <div> Seleccionar Talle</div>
                             <input type="radio" id="small" name="talle" value="small">
@@ -68,19 +78,16 @@
             </div>
         </div>
     </main>
-    <footer>
-        <footer class="footer">
-            <div>
-                <p>
-                    <a href="./contacto.html">Contacto</a>
-                    <a href="#">Preguntas frecuentes</a>
-                    <a href="#">Terminos y condiciones</a>
-                    <a href="#">Locales</a>
-                    <a>Estado pedidos</a>
-                    <a>Quienes somos?</a>
-                </p>
-            </div>
-        </footer>
+    <!--footer-->
+    <footer class="footer">
+        <a href="./contacto.html">Contacto</a>
+        <a href="#">Preguntas frecuentes</a>
+        <a href="#">Terminos y condiciones</a>
+        <a href="#">Locales</a>
+        <a>Estado pedidos</a>
+        <a>Quienes somos?</a>
+    </footer>
 </body>
+
 
 </html>

@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Nombre de la marca</title>
     <link rel="stylesheet" href="./styles.css" type='text/css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
 <body>
     <header>
         <nav class="menu">
@@ -21,33 +28,45 @@
                 <a href="#">Capsulas</a>
                 <a> comprar</a>
 
-                
+
                 <div class="formbuscar">
-                    <form name="form1" id="buscar" target="_blank" method="post"><a>Buscar</a> 
-                      <input type="text" name="prueba"><br><br>
-               
-            </div>
+                    <form name="form1" id="buscar" target="_blank" method="post"><a>Buscar</a>
+                        <input type="text" name="prueba"><br><br>
+
+                </div>
         </nav>
     </header>
     <main>
-<div>
-     <h2>Remeras</h2>
-     <ul>
-    <li> <img src="./images/remera_lila.jpeg" width="20%" height="20%"> <a href="./remera_lila.html"><h4> básica Lila</h4></a></li>
-        
-    <li> <img src="./images/remera_negra.jpeg" width="20%" height="20%"> <h4>Remera básica Negra</h4> </li>
-    <li> <img src="./images/Remera_verdeagua.jpeg" width="20%" height="20%"> <h4>Remera básica Verde agua</h4> </li>
-    <li> <img src="./images/remera_rosa.jpeg" width="20%" height="20%"> <h4>Remera básica Rosa</h4> </li>
-     </ul>
-</div>
-</main>
-<footer class="footer">
-    <a href="./contacto.html">Contacto</a>
-    <a href="#">Preguntas frecuentes</a>
-    <a href="#">Terminos y condiciones</a>
-    <a href="#">Locales</a>
-    <a>Estado pedidos</a>
-    <a>Quienes somos?</a>
-</footer>
+        <div class="container">
+            <h2>Remeras</h2>
+            <div class="row">
+
+                <div class="col-md-6">
+                    <img src="./images/remera_lila.jpeg" class="img-fluid w-75"> <a href="./remera_lila.html">
+                        <h4> básica Lila</h4>
+                    </a>
+
+                    <img src="./images/remera_negra.jpeg" class="img-fluid w-75">
+                    <h4>Remera básica Negra</h4>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/Remera_verdeagua.jpeg" class="img-fluid w-75">
+                    <h4>Remera básica Verde agua</h4>
+
+                    <img src="./images/remera_rosa.jpeg" class="img-fluid w-75">
+                    <h4>Remera básica Rosa</h4>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="./contacto.html">Contacto</a>
+        <a href="#">Preguntas frecuentes</a>
+        <a href="#">Terminos y condiciones</a>
+        <a href="#">Locales</a>
+        <a>Estado pedidos</a>
+        <a>Quienes somos?</a>
+    </footer>
 </body>
+
 </html>
