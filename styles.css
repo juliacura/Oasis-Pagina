@@ -151,13 +151,24 @@ h3 {
   list-style: none;
 }
 /*remera lila*/
-.structure{
-  grid-content {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 25% 25% 25% 25%;
-    grid-area: sidebar;
-    
+
+.item1 {
+  text-decoration: none;
+}
+.item2{
+  text-decoration: none;
+}
+.boton-compra{
+  transform: none;
+}
+/*zoom*/
+.zoom{
+  transition: transform 0.5s;
+}
+.zoom :hover{
+  transform: scale(1.25);
+}
+
 
 .container-articulo {
   display: inline-grid;
@@ -210,7 +221,7 @@ h3 {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 25% 25% 25% 25%;
-  grid-area: sidebar;
+  grid-area: sidebar
 }
 .item1 {
   font-size: 55px;
@@ -227,11 +238,4 @@ h3 {
   margin-left: 60px;
   padding-left: 30px;
   
-}
-/*zoom*/
-.zoom{
-    transition: transform 0.5s;
-}
-.zoom :hover{
-    transform: scale(1.25);
 }
